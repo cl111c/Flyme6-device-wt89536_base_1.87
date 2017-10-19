@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/virtual_key_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip">
+            <ImageView android:id="@id/RightBackImage" android:layout_width="wrap_content" android:layout_height="180.0dip" android:src="@drawable/choose_right_back" android:scaleType="centerInside" />
+            <TextView android:id="@id/line" android:background="#ffefefef" android:layout_width="1.0dip" android:layout_height="180.0dip" android:layout_marginLeft="100.0dip" />
+            <ImageView android:id="@id/LeftBackImage" android:layout_width="wrap_content" android:layout_height="180.0dip" android:layout_marginLeft="100.0dip" android:src="@drawable/left_back" android:scaleType="centerInside" />
+        </LinearLayout>
+        <RadioGroup android:orientation="horizontal" android:id="@id/Leftchoose" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="10.0dip" android:checkedButton="@id/RightBackButton">
+            <RadioButton android:id="@id/RightBackButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="90.0dip" />
+            <RadioButton android:id="@id/LeftBackButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="290.0dip" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <TextView android:textSize="10.0sp" android:textColor="#ff3c3c3c" android:id="@id/leftMultitaskingString" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="120.0dip" android:text="@string/leftMultitaskingString" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff3c3c3c" android:id="@id/leftbackstring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="115.0dip" android:text="@string/left_key_back" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="10.0sp" android:textColor="#ff3c3c3c" android:id="@id/rightbackstring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="120.0dip" android:text="@string/right_key_back" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff3c3c3c" android:id="@id/rightMultitaskingString" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="120.0dip" android:text="@string/rightMultitaskingString" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

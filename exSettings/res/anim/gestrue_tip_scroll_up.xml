@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/tips_gesture_bg" />
+    <item android:duration="200" android:drawable="@drawable/tips_gesture_scroll_up_01" />
+    <item android:duration="200" android:drawable="@drawable/tips_gesture_scroll_up_02" />
+    <item android:duration="200" android:drawable="@drawable/tips_gesture_scroll_up_03" />
+    <item android:duration="200" android:drawable="@drawable/tips_gesture_scroll_up_04" />
+    <item android:duration="1300" android:drawable="@drawable/tips_gesture_bg" />
+</animation-list>

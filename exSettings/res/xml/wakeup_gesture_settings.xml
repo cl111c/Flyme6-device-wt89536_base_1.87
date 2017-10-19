@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_double" android:persistent="true" android:title="@string/gesture_double_click" android:key="gesture_double_click" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_c" android:persistent="true" android:title="@string/gesture_c" android:key="gesture_c" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_e" android:persistent="true" android:title="@string/gesture_e" android:key="gesture_e" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_w" android:persistent="true" android:title="@string/gesture_w" android:key="gesture_w" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_m" android:persistent="true" android:title="@string/gesture_m" android:key="gesture_m" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_o" android:persistent="true" android:title="@string/gesture_o" android:key="gesture_o" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_s" android:persistent="true" android:title="@string/gesture_s" android:key="gesture_s" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_z" android:persistent="true" android:title="@string/gesture_z" android:key="gesture_z" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_arrow_up" android:persistent="true" android:title="@string/gesture_up_arrow" android:key="gesture_up_arrow" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+    <com.android.exsettings.SwitchPreferenceOnly android:icon="@drawable/icon_arrow_down" android:persistent="true" android:title="@string/gesture_down_arrow" android:key="gesture_down_arrow" android:defaultValue="false" android:fragment="com.android.exsettings.wakeup.AppSelect" />
+</PreferenceScreen>

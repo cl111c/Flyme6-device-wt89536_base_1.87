@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="fp_enrollment_header_landscape">#ff009688</item>
+    <item type="drawable" name="button_click">#ff2e313b</item>
+    <item type="drawable" name="button_unclick">#ff585c65</item>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_bg" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_01" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_02" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_03" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_04" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_05" />
+    <item android:duration="500" android:drawable="@drawable/tips_gesture_bg" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_06" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_07" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_08" />
+    <item android:duration="100" android:drawable="@drawable/tips_gesture_double_09" />
+    <item android:duration="1600" android:drawable="@drawable/tips_gesture_double_10" />
+</animation-list>

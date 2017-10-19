@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/home_screen_title" settings:keywords="@string/home_screen_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.exsettings">
+    <PreferenceScreen android:title="@string/wallpaper_settings_title" android:key="lock_wallpaper">
+        <intent android:targetPackage="com.android.launcher3" android:targetClass="com.android.launcher3.CmccN2PreferenceWallpaper" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/launcher_style_title" android:key="launcher_style">
+        <intent android:targetPackage="com.wingtech.theme" android:targetClass="com.wingtech.theme.LocalThemeManager" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="false" android:title="@string/main_screen_information_title" android:key="main_screen_information" android:summary="@string/home_screen_summary" android:defaultValue="false" />
+</PreferenceScreen>

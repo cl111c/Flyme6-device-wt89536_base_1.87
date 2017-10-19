@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="23.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeight" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/option1" android:background="@drawable/tct_silent_mode_indicator" android:focusable="true" android:layout_width="64.0dip" android:layout_height="fill_parent">
+        <Button android:textSize="14.0sp" android:textColor="#ff3c3c3c" android:layout_gravity="center" android:background="?actionBarItemBackground" android:paddingBottom="1.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tct_silent_mode_silent" android:singleLine="true" android:drawableTop="@drawable/tct_ic_audio_ring_notif_mute" android:drawablePadding="1.0dip" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/option2" android:background="@drawable/tct_silent_mode_indicator" android:focusable="true" android:layout_width="64.0dip" android:layout_height="fill_parent">
+        <Button android:textSize="14.0sp" android:textColor="#ff3c3c3c" android:layout_gravity="center" android:background="?actionBarItemBackground" android:paddingBottom="1.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tct_silent_mode_vibrate" android:singleLine="true" android:drawableTop="@drawable/tct_ic_audio_ring_notif_vibrate" android:drawablePadding="1.0dip" />
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/option3" android:background="@drawable/tct_silent_mode_indicator" android:focusable="true" android:layout_width="64.0dip" android:layout_height="fill_parent">
+        <Button android:textSize="14.0sp" android:textColor="#ff3c3c3c" android:layout_gravity="center" android:background="?actionBarItemBackground" android:paddingBottom="1.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tct_silent_mode_ring" android:singleLine="true" android:drawableTop="@drawable/tct_ic_audio_ring_notif" android:drawablePadding="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

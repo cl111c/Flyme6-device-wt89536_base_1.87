@@ -1,0 +1,7 @@
+.method public onKeyguardGoingToSleep(Lcom/android/internal/policy/IKeyguardDrawnCallback;)V
+    .locals 0
+
+    .prologue
+    return-void
+.end method
+

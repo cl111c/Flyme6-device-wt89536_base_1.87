@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_05" />
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_06" />
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_07" />
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_08" />
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_09" />
+    <item android:duration="500" android:drawable="@drawable/gesture_volume_10" />
+    <item android:duration="1400" android:drawable="@drawable/gesture_volume_11" />
+</animation-list>

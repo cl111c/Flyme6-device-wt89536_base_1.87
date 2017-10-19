@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ActionBarOverlayLayout android:theme="?actionBarTheme" android:id="@id/decor_content_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.internal.widget.ActionBarContainer android:gravity="top" android:id="@id/action_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:transitionName="android:action_bar" android:touchscreenBlocksFocus="true" style="?attr/actionBarStyle">
+        <com.android.internal.widget.ActionBarView android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/actionBarStyle" />
+        <com.android.internal.widget.ActionBarContextView android:id="@id/action_context_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/actionModeStyle" />
+    </com.android.internal.widget.ActionBarContainer>
+    <com.android.internal.widget.ActionBarContainer android:gravity="center" android:id="@id/split_action_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="true" style="?attr/actionBarSplitStyle" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tct_split_button_bar" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/tct_split_bar_height" android:paddingStart="22.0dip" android:paddingEnd="22.0dip" style="?attr/buttonBarStyle">
+        <Button android:id="@id/button1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" style="?attr/buttonBarNeutralButtonStyle" />
+        <Button android:id="@id/button2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" style="?attr/buttonBarNegativeButtonStyle" />
+        <Button android:textColor="@color/tct_btn_positive" android:id="@id/button3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" style="?attr/buttonBarPositiveButtonStyle" />
+    </LinearLayout>
+</com.android.internal.widget.ActionBarOverlayLayout>

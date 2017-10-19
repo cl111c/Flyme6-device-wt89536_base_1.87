@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#cc3c3c3c" android:id="@id/sequence_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/drag_sequence" android:layout_centerHorizontal="true" />
+    <com.android.exsettings.notification.DragGridView android:gravity="center" android:id="@id/dragGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="100.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="100.0dip" android:layout_marginBottom="10.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="1.0dip" android:verticalSpacing="1.0dip" android:stretchMode="columnWidth" android:numColumns="4" android:layout_below="@id/sequence_text" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.exsettings">
+    <com.android.exsettings.deviceinfo.PercentageBarChart android:gravity="center_vertical" android:id="@id/percentage_bar_chart" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:minHeight="?android:listPreferredItemHeight" settings:emptyColor="@color/material_empty_color_light" settings:minTickWidth="6.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff6d6c6c" android:id="@id/memory_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="9.0dip" android:text="@string/about_settings" />
+</LinearLayout>

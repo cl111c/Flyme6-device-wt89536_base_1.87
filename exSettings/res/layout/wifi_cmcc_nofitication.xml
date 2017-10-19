@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="64.0dip" android:layout_height="64.0dip">
+        <ImageView android:id="@id/icon_img" android:background="@drawable/notification_icon_cmcc_bg" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:drawable="@drawable/ic_settings_wifi_cmcc_icon" />
+        <ProgressBar android:id="@id/progressbar" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" android:progressDrawable="@drawable/ic_sync_green" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top" android:layout_gravity="fill_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:minHeight="64.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="64.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NotificationPrimaryText" android:ellipsize="marquee" android:id="@id/title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/NotificationSecondaryText" android:ellipsize="marquee" android:id="@id/info" android:visibility="visible" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-1.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

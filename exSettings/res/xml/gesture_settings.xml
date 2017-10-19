@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wake_gesture_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/gesture_settings" android:key="gesture_settings" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="true" android:title="@string/black_screen_gesture" android:key="black_gesture" android:defaultValue="true" android:fragment="com.android.exsettings.wakeup.WakeUpSettings" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="true" android:title="@string/screenshot_settings_title" android:key="screenshot_settings" android:summary="@string/screenshot_settings_summery" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/kinect_settings" android:key="kinect_settings" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="true" android:title="@string/turn_over_mute" android:key="turn_over_mute" android:summary="@string/turn_over_mute_summary" android:defaultValue="false" />
+    <com.android.exsettings.QuickSwitchPreference android:title="@string/turn_over_to_activate" android:key="alarm_turn_over_mute" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/kinect_other_settings" android:key="kinect_other_settings" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="true" android:title="@string/screen_miss_touch_proof" android:key="miss_touch_proof" android:summary="@string/screen_miss_touch_proof_summary" android:defaultValue="false" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="false" android:title="@string/glove_mode_title" android:key="glove_mode_switch" android:summary="@string/glove_mode_summary" android:defaultValue="false" />
+</PreferenceScreen>

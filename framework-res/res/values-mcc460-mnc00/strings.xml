@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="high_definition_tag">%s (HD)</string>
+    <item type="string" name="APKTOOL_DUMMY_5ba">false</item>
+</resources>

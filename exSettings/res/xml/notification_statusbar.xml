@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_statusbar_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/notification_title" android:key="notification">
+        <Preference android:title="@string/notification_manager_title" android:key="notification_manager">
+            <intent android:action="android.phonekeeper.VIEW_NOTIFICATION" />
+        </Preference>
+        <SwitchPreference android:persistent="false" android:title="@string/notification_show_title" android:key="notification_show" android:defaultValue="false" />
+        <com.android.exsettings.SwitchPreferenceOnly android:persistent="false" android:title="@string/not_disturb_settings_title" android:key="not_disturb_settings" android:defaultValue="false">
+            <intent android:action="android.phonekeeper.VIEW_NDN_SETTINGS" />
+        </com.android.exsettings.SwitchPreferenceOnly>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/statusbar_title" android:key="statusbar">
+        <Preference android:title="@string/switch_sequence_title" android:key="switch_sequence">
+            <intent android:targetPackage="com.android.exsettings" android:targetClass="com.android.exsettings.notification.QsSequenceActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

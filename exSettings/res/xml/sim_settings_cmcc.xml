@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_card_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.exsettings.sim.MultiSimEnablerPreferenceCmcc android:layout="@layout/custom_simcard_cmcc" android:key="config_sub" />
+    <PreferenceCategory android:title="@string/sim_card_settings_title" android:key="sim_cards" />
+    <PreferenceCategory android:title="@string/preferred_subs_settings_title" android:key="sim_activities">
+        <Preference android:persistent="false" android:title="@string/primary_sub_select_title" android:key="select_primary_sub">
+            <intent android:action="codeaurora.intent.action.ACTION_LTE_CONFIGURE" />
+        </Preference>
+        <Preference android:title="@string/default_data_title" android:key="sim_cellular_data" />
+    </PreferenceCategory>
+</PreferenceScreen>

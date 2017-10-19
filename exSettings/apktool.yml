@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: exSettings.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  org/htmlparser/beans/images/Chain16.gif: '8'
+  org/htmlparser/beans/images/Chain32.gif: '8'
+  org/htmlparser/beans/images/Knot16.gif: '8'
+  org/htmlparser/beans/images/Knot32.gif: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2-6a4ae2-SNAPSHOT
+versionInfo:
+  versionCode: '23'
+  versionName: 6.0.1

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_00" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_01" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_00" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_01" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_00" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_01" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_02" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_03" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_04" />
+    <item android:duration="500" android:drawable="@drawable/kinect_answer_tip_05" />
+    <item android:duration="1400" android:drawable="@drawable/kinect_answer_tip_06" />
+</animation-list>

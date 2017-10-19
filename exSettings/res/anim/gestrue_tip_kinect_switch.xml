@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/kinect_switch00" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch01" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch02" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch03" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch02" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch03" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch02" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch03" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch04" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch05" />
+    <item android:duration="500" android:drawable="@drawable/kinect_switch06" />
+    <item android:duration="1400" android:drawable="@drawable/kinect_switch07" />
+</animation-list>

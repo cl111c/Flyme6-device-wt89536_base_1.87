@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/all_volume_title" android:key="all_volume"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.exsettings">
+    <com.android.exsettings.notification.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_media" android:title="@string/media_volume_option_title" android:key="media_volume" />
+    <com.android.exsettings.notification.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_alarm" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" />
+    <com.android.exsettings.notification.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/ring_volume_option_title" android:key="ring_volume" />
+    <com.android.exsettings.notification.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/notification_volume_option_title" android:key="notification_volume" />
+</PreferenceScreen>

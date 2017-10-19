@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/locksreen_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/drop_down_menu_title" android:key="drop_down_menu">
+        <SwitchPreference android:persistent="false" android:title="@string/locksreen_drop_down_menu_title" android:key="locksreen_drop_down_menu" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/signature_title" android:key="signature">
+        <SwitchPreference android:persistent="false" android:title="@string/display_signature_title" android:key="display_signature" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/multisim_data_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.exsettings">
+    <com.android.exsettings.sim.MobileDataPreferenceCmcc android:layout="@layout/mobile_data_cmcc" android:key="toggle_mobile_data" />
+    <PreferenceScreen android:title="@string/sim_card_settings_title" android:key="multi_sim_settings" android:fragment="com.android.exsettings.sim.SimSettings" />
+</PreferenceScreen>

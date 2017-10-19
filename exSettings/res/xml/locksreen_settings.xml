@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/locksreen_password_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/security_password_title" android:key="security_password" />
+    <com.android.exsettings.SwitchPreferenceOnly android:persistent="false" android:title="@string/password_locksreen_title" android:key="password_locksreen" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/live_magazine_locksreen_title" android:key="locksreen_type" android:summaryOn="@string/switch_on_text" android:summaryOff="@string/switch_off_text" />
+    <PreferenceScreen android:title="@string/locksreen_setting_title" android:key="locksreen_setting" android:fragment="com.android.exsettings.LocksreenInterfaceSettings" />
+</PreferenceScreen>

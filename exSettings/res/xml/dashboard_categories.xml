@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category android:id="@id/wireless_section" android:title="@string/header_category_wireless_networks" android:key="@string/category_key_wireless">
+        <dashboard-tile android:icon="@drawable/ic_sim_sd" android:id="@id/multisim_settings" android:title="@string/multisim_data_title" android:fragment="com.android.exsettings.MultisimAndDataSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_wireless_alpha" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:fragment="com.android.exsettings.wifi.WifiSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_bluetooth_alpha" android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:fragment="com.android.exsettings.bluetooth.BluetoothSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_nfc" android:id="@id/nfc_settings" android:title="@string/nfc_quick_toggle_title" android:fragment="com.android.exsettings.nfc.NfcSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_tether" android:id="@id/tether_settings" android:title="@string/tether_settings_title_all" android:fragment="com.android.exsettings.TetherSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_netassis" android:id="@id/netassis_settings" android:title="@string/netassis_title">
+            <intent android:action="android.phonekeeper.NETASSIS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_4g" android:id="@id/lte_4g_settings" android:title="@string/lte_4g_settings_title" />
+        <dashboard-tile android:icon="@drawable/ic_settings_data_usage" android:id="@id/data_usage_settings" android:title="@string/data_usage_summary_title" android:fragment="com.android.exsettings.DataUsageSummary" />
+        <dashboard-tile android:id="@id/operator_settings" android:fragment="com.android.exsettings.WirelessSettings">
+            <intent android:action="com.android.exsettings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_more_alpha" android:id="@id/wireless_settings" android:title="@string/radio_controls_title" android:fragment="com.android.exsettings.WirelessSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/device_section" android:title="@string/header_category_device" android:key="@string/category_key_device">
+        <dashboard-tile android:icon="@drawable/ic_settings_roaming" android:id="@id/global_roaming_settings" android:title="@string/label_global_roaming_settings">
+            <intent android:action="com.android.action.roamingsettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_home" android:id="@id/home_settings" android:title="@string/home_settings" android:fragment="com.android.exsettings.HomeSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_display_am_alpha" android:id="@id/display_settings" android:title="@string/display_settings" android:fragment="com.android.exsettings.DisplaySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_notifications_statusbar" android:id="@id/notification_statusbar" android:title="@string/notification_statusbar_title" android:fragment="com.android.exsettings.notification.NotificationStatusbar" />
+        <dashboard-tile android:icon="@drawable/ic_settings_notifications_alpha" android:id="@id/notification_settings" android:title="@string/notification_settings" android:fragment="com.android.exsettings.notification.NotificationSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_virtualkey_alpha" android:id="@id/virtualkey_settings" android:title="@string/virtual_key_settings" android:fragment="com.android.exsettings.VirtualKeySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_applications" android:id="@id/application_settings" android:title="@string/applications_settings" android:fragment="com.android.exsettings.applications.ManageApplications" />
+        <dashboard-tile android:icon="@drawable/ic_settings_phonekeeper" android:id="@id/phonekeeper_settings" android:title="@string/phone_keeper_title">
+            <intent android:action="com.phonekeeper.MAIN" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_gestures" android:id="@id/gesture_settings" android:title="@string/wake_gesture_title" android:fragment="com.android.exsettings.wakeup.GestureSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_storage_alpha" android:id="@id/storage_settings" android:title="@string/storage_usb_settings" android:fragment="com.android.exsettings.deviceinfo.StorageSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_battery" android:id="@id/battery_settings" android:title="@string/power_usage_summary_title" android:fragment="com.android.exsettings.fuelgauge.PowerUsageSummary" />
+        <dashboard-tile android:icon="@drawable/ic_settings_memory" android:id="@id/manage_memory" android:title="@string/memory_settings_title" android:fragment="com.android.exsettings.applications.ProcessStatsSummary" />
+        <dashboard-tile android:icon="@drawable/ic_settings_battery_manager" android:id="@id/battery_manager_settings" android:title="@string/battery_manager_title">
+            <intent android:action="android.phonekeeper.VIEW_BATTERY" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_multiuser" android:id="@id/user_settings" android:title="@string/user_settings_title" android:fragment="com.android.exsettings.users.UserSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_nfc_payment" android:id="@id/nfc_payment_settings" android:title="@string/nfc_payment_settings_title" android:fragment="com.android.exsettings.nfc.PaymentSettings" />
+        <dashboard-tile android:id="@id/manufacturer_settings" android:fragment="com.android.exsettings.WirelessSettings">
+            <intent android:action="com.android.exsettings.MANUFACTURER_APPLICATION_SETTING" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal" android:key="@string/category_key_personal">
+        <dashboard-tile android:icon="@drawable/ic_settings_locksreen" android:id="@id/locksreen_password" android:title="@string/locksreen_password_title" android:fragment="com.android.exsettings.LocksreenSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_profiles" android:id="@id/profile_settings" android:title="@string/profiles_settings_title" />
+        <dashboard-tile android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.exsettings.location.LocationSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_security_alpha" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.android.exsettings.SecuritySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_accounts_alpha" android:id="@id/account_settings" android:title="@string/account_settings_title" android:fragment="com.android.exsettings.accounts.AccountSettings" />
+        <external-tiles />
+        <dashboard-tile android:icon="@drawable/ic_settings_language_alpha" android:id="@id/language_settings" android:title="@string/language_settings" android:fragment="com.android.exsettings.inputmethod.InputMethodAndLanguageSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_backup_alpha" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.exsettings.PrivacySettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/system_section" android:title="@string/header_category_system" android:key="@string/category_key_system">
+        <dashboard-tile android:icon="@drawable/ic_settings_qti_feedback" android:id="@id/qtifeedback_settings" android:title="@string/qtifeedback_settings_title" android:summary="@string/qtifeedback_settings_subtitle">
+            <intent android:action="com.qti.smq.snapdragonSettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_date_time_alpha" android:id="@id/date_time_settings" android:title="@string/date_and_time_settings_title" android:fragment="com.android.exsettings.DateTimeSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_accessibility_alpha" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:fragment="com.android.exsettings.accessibility.AccessibilitySettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_print" android:id="@id/print_settings" android:title="@string/print_settings" android:fragment="com.android.exsettings.print.PrintSettingsFragment" />
+        <dashboard-tile android:icon="@drawable/ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.exsettings.DevelopmentSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_about_alpha" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.exsettings.DeviceInfoSettings" />
+    </dashboard-category>
+</dashboard-categories>

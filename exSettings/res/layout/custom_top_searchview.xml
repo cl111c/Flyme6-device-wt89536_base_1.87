@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/top_search" android:background="@drawable/searchbar" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.exsettings.topSearchBar android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <TextView android:enabled="true" android:textSize="12.0sp" android:textColor="#cc3c3c3c" android:gravity="center_vertical" android:id="@id/top_search_text" android:background="@android:color/transparent" android:clickable="false" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginLeft="8.0dip" android:text="@string/dashboard_title" />
+    </com.android.exsettings.topSearchBar>
+</LinearLayout>

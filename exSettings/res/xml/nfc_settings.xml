@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/nfc_quick_toggle_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/nfc_title" android:key="toggle_nfc" android:summary="@string/nfc_quick_toggle_summary" />
+    <SwitchPreference android:persistent="false" android:title="@string/android_beam_settings_title" android:key="toggle_android_beam" />
+    <Preference android:title="@string/android_beam_explained" android:key="android_beam_explain" android:dependency="toggle_android_beam" />
+</PreferenceScreen>

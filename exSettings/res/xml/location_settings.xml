@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" settings:keywords="@string/keywords_location"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.exsettings">
+    <Preference android:title="@string/location_mode_title" android:key="location_mode" android:summary="@string/location_mode_location_off_title" settings:keywords="@string/keywords_location_mode" />
+    <PreferenceCategory android:title="@string/managed_profile_location_category" android:key="managed_profile_location_category">
+        <Preference android:persistent="false" android:enabled="false" android:title="@string/managed_profile_location_switch_title" android:selectable="false" android:key="managed_profile_location_switch" android:summary="@string/managed_profile_location_switch_lockdown" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/location_category_recent_location_requests" android:key="recent_location_requests" />
+    <PreferenceCategory android:title="@string/location_category_location_services" android:key="location_services" />
+    <CheckBoxPreference android:title="@string/assisted_gps" android:key="assisted_gps" android:summaryOn="@string/assisted_gps_enabled" android:summaryOff="@string/assisted_gps_disabled" />
+    <Preference android:title="@string/location_agps_params_settings_title" android:key="assisted_gps_params" android:dependency="assisted_gps">
+        <intent android:targetPackage="com.android.exsettings" android:action="android.intent.action.MAIN" android:targetClass="com.android.exsettings.AgpsSettings" />
+    </Preference>
+</PreferenceScreen>
